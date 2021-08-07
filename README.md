@@ -17,6 +17,7 @@
 - 服务提供侧自动注册服务
 - 使用ThreadLocal处理多线程调用方法时的安全性问题
 - 利用事件回调机制完成 RpcServer给RpcProvider上报接收到的rpc服务调用相关信息
+- 使用ZkClient的watcher机制，设置zNode节点监听，实现数据的发布/订阅功能
 
 ## 项目模块概览
 
